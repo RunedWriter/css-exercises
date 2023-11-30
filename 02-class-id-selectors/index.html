@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>02-class-id-selectors</title>
+        <style>
+            .odds {
+                background-color: rgb(226, 155, 155);
+                font-family: Verdana, sans-serif;
+            }
+
+            .odds.cool {
+                font-size: 24px;
+            }
+
+            #second {
+                color: rgb(36, 103, 247);
+                font-size: 36px;
+            }
+
+            #fourth {
+                background-color: hsl(147, 50%, 47%);
+                font-size: 24px;
+                font-weight: 700;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="odds">
+            Number 1 - I'm a class!
+        </div>
+        <p id="second">
+            Number 2 - I'm one ID.
+        </p>
+        <div class="odds cool">
+            Number 3 - I'm a class, but cooler!
+        </div>
+        <p id="fourth">
+            Number 4 - I'm another ID.
+        </p>
+        <div class="odds">
+            Number 5 - I'm a class!
+        </div>
+    </body>
+</html>
