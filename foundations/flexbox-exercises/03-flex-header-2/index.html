@@ -2,22 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>flex-header-2</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
-        <div class="logo">
-            <strong>LOGO</strong>
+        <div class="left">
+            <div class="logo">
+                <strong>LOGO</strong>
+            </div>
+            <ul class="links">
+                <a href="blank">link-one</a>
+                <a href="blank">link-two</a>
+                <a href="blank">link-three</a>                
+            </ul>
         </div>
-        <div class="left-links">
-            <a href="blank">link-one</a>
-            <a href="blank">link-two</a>
-            <a href="blank">link-three</a>
-        </div>
-        <div class="right-buttons">
-            <button>1 new notification</button>
-            <button></button>
+        <div class="right">
+            <button class="notifications">
+                1 new notification
+            </button>
+            <div class="profile-image"></div>
         </div>
     </div>
 </body>
