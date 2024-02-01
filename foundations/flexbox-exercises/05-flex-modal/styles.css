@@ -34,6 +34,11 @@ body {
     font-size: large;
 }
 
+.text {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -45,6 +50,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -60,6 +66,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  flex-shrink: 0;
 }
 
 button {
